@@ -10,7 +10,7 @@ import (
 func main() {
 	goapp.Name = "notes"
 	if len(os.Args) < 2 {
-		os.Args = append(os.Args, "build")
+		os.Args = append(os.Args, "check")
 	}
 	ops.Handle(goapp.Ops{})
 }
